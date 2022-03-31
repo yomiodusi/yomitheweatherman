@@ -13,54 +13,87 @@
 
 <body>
     <!-- Nav Bar CSS -->
-    <nav class="navbar navbar-light bg-dark">
+    <nav class="navbar navbar-light bg-dark justify-content-center">
         <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
     </nav>
 
+    <!-- Main Page -->
     <div class="container-fluid row">
         <div class="col-3s">
-            <div class="seach-bar"
-                style="border:1px solid red;">
-               Search for Cityswdcccccccccccccdwsa
+            <!-- User Inputs Location-->
+            <div class="input-group mb-3">
+                <input id="userInput" type="text" class="inputBar"></input>
+                <form class="input-group-append">
+                    <button id="submit" class="btn btn-primary" type="submit"> Search </button>
+                </form>
             </div>
 
-            <div
+            <!-- Older Searches Save Here-->
+            <div class="olderSearches"
                 style="border:1px solid red;">
                 Older Searched Cities
             </div>
         </div>
 
+        <!-- Searched Cities Current Weather Conditions -->
         <div class="col-9">
             <div class="bg-light"
             style="border:1px solid red;">
             Today's weather
             </div>
 
+            <!-- Five Day Weather Forecast-->
             <div class="row justify-content-center"
             style="border:1px solid red;">
-                <div id="firstDay">
-                    day1
+                <!-- First Day-->
+                <div class="futureforecastbox">
+                    <h3 id="day1Moment"></h3>
+                    <img id="pic-descr">
+                    <p id="temp1"></p>
+                    <p id="wind1"></p>
+                    <p id="humi1"></p>
                 </div>
-                <div id="secondDay">
-                    day2
+
+                <!-- Second Day-->
+                <div class="futureforecastbox">
+                    <h3 id="day2Moment"></h3>
+                    <img id="pic-descr">
+                    <p id="temp2"></p>
+                    <p id="wind2"></p>
+                    <p id="humi2"></p>
                 </div>
-                <div id="thirdtDay">
-                    day3
+
+                <!-- Third Day-->
+                <div class="futureforecastbox">
+                    <h3 id="day3Moment"></h3>
+                    <img id="pic-descr">
+                    <p id="temp3"></p>
+                    <p id="wind3"></p>
+                    <p id="humi3"></p>
                 </div>
-                <div id="fourthDay">
-                    day4
+
+                <!-- Fourth Day-->
+                <div class="futureforecastbox">
+                    <h3 id="day4Moment"></h3>
+                    <img id="pic-descr">
+                    <p id="temp4"></p>
+                    <p id="wind4"></p>
+                    <p id="humi4"></p>
                 </div>
-                <div id="fifthDay">
-                    day5
+
+                <!-- Fifth Day-->
+                <div class="futureforecastbox">
+                    <h3 id="day5Moment"></h3>
+                    <img id="pic-descr">
+                    <p id="temp5"></p>
+                    <p id="wind5"></p>
+                    <p id="humi5"></p>
                 </div>
             </div>
 
         </div>
 
     </div>
-
-
-
 
     
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
