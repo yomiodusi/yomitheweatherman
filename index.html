@@ -23,10 +23,8 @@
             <!-- User Inputs Location-->
             <h2>Search for a City:</h2>
             <div class="input-group mb-3">
-                <input id="userInput" type="text" class="inputBar"></input>
-                <form class="input-group-append">
-                    <button id="submit" class="btn btn-primary" type="submit"> Search </button>
-                </form>
+                <input id="userInput" type="text" class="inputBar">
+                <button id="submit" class="btn btn-primary" type="button"> Search </button>
             </div>
             <hr class="new1">
             <!-- Older Searches Save Here-->
@@ -40,7 +38,14 @@
         <div class="col-9">
             <div class="bg-light"
             style="border:1px solid red;">
-            Today's weather
+                <!-- Today's Weather Conditions-->
+                <div class="today-weather">
+                    <h2 class="day1Moment" id="cityPlace"></h2>
+                    <p id="temp"></p>
+                    <p id="wind"></p>
+                    <p id="humi"></p>
+                    <p id="uvi"></p>
+                </div>
             </div>
 
             <!-- Five Day Weather Forecast-->
@@ -48,8 +53,8 @@
             style="border:1px solid red;">
                 <!-- First Day-->
                 <div class="futureforecastbox">
-                    <h3 id="day1Moment"></h3>
-                    <img id="pic-descr">
+                    <h3 id="day1"></h3>
+                    <img src="" alt= "pic icon" id="pic-descr">
                     <p id="temp1"></p>
                     <p id="wind1"></p>
                     <p id="humi1"></p>
@@ -57,8 +62,8 @@
 
                 <!-- Second Day-->
                 <div class="futureforecastbox">
-                    <h3 id="day2Moment"></h3>
-                    <img id="pic-descr">
+                    <h3 id="day2"></h3>
+                    <img src="" alt= "pic icon" id="pic-descr">
                     <p id="temp2"></p>
                     <p id="wind2"></p>
                     <p id="humi2"></p>
@@ -66,8 +71,8 @@
 
                 <!-- Third Day-->
                 <div class="futureforecastbox">
-                    <h3 id="day3Moment"></h3>
-                    <img id="pic-descr">
+                    <h3 id="day3"></h3>
+                    <img src="" alt= "pic icon" id="pic-descr">
                     <p id="temp3"></p>
                     <p id="wind3"></p>
                     <p id="humi3"></p>
@@ -75,8 +80,8 @@
 
                 <!-- Fourth Day-->
                 <div class="futureforecastbox">
-                    <h3 id="day4Moment"></h3>
-                    <img id="pic-descr">
+                    <h3 id="day4"></h3>
+                    <img src="" alt= "pic icon" id="pic-descr">
                     <p id="temp4"></p>
                     <p id="wind4"></p>
                     <p id="humi4"></p>
@@ -84,8 +89,8 @@
 
                 <!-- Fifth Day-->
                 <div class="futureforecastbox">
-                    <h3 id="day5Moment"></h3>
-                    <img id="pic-descr">
+                    <h3 id="day5"></h3>
+                    <img src="" alt= "pic icon" id="pic-descr">
                     <p id="temp5"></p>
                     <p id="wind5"></p>
                     <p id="humi5"></p>
