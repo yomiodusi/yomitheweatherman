@@ -24,76 +24,78 @@
             <h2>Search for a City:</h2>
             <div class="input-group mb-3">
                 <input id="userInput" type="text" class="inputBar">
-                <button id="submit" class="btn btn-primary" type="button"> Search </button>
+                <button onclick="collectInfo()">Search</button>
             </div>
             <hr class="new1">
             <!-- Older Searches Save Here-->
             <div class="olderSearches"
-                style="border:1px solid red;">
-                Older Searched Cities
+                style="border:1px solid rgb(58, 10, 10);">
+                Serach
             </div>
         </div>
 
         <!-- Searched Cities Current Weather Conditions -->
         <div class="col-9">
-            <div class="bg-light"
-            style="border:1px solid red;">
+            <div class="upperbox">
                 <!-- Today's Weather Conditions-->
                 <div class="today-weather">
-                    <h2 class="day1Moment" id="cityPlace"></h2>
-                    <p id="temp"></p>
-                    <p id="wind"></p>
-                    <p id="humi"></p>
-                    <p id="uvi"></p>
+                    <h2 class="day1Moment" id="cityPlace">--Lagos--</h2>
+                    <p id="temp">Temp:</p>
+                    <p id="wind">Wind:</p>
+                    <p id="humi">Humidity:</p>
+                    <p id="uvi">UV Index:</p>
                 </div>
             </div>
+
+            <h2>Five Day Forecast: </h2>
 
             <!-- Five Day Weather Forecast-->
             <div class="row justify-content-center"
             style="border:1px solid red;">
                 <!-- First Day-->
+      
                 <div class="futureforecastbox">
                     <h3 id="day1"></h3>
                     <img src="" alt= "pic icon" id="pic-descr">
-                    <p id="temp1"></p>
-                    <p id="wind1"></p>
-                    <p id="humi1"></p>
+                    <p id="temp1">Temp:</p>
+                    <p id="wind1">Wind:</p>
+                    <p id="humi1">Humidity:</p>
                 </div>
 
                 <!-- Second Day-->
                 <div class="futureforecastbox">
                     <h3 id="day2"></h3>
                     <img src="" alt= "pic icon" id="pic-descr">
-                    <p id="temp2"></p>
-                    <p id="wind2"></p>
-                    <p id="humi2"></p>
+                    <p id="temp2">Temp:</p>
+                    <p id="wind2">Wind:</p>
+                    <p id="humi2">Humidity:</p>
                 </div>
 
                 <!-- Third Day-->
                 <div class="futureforecastbox">
                     <h3 id="day3"></h3>
                     <img src="" alt= "pic icon" id="pic-descr">
-                    <p id="temp3"></p>
-                    <p id="wind3"></p>
-                    <p id="humi3"></p>
+                    <p id="temp3">Temp:</p>
+                    <p id="wind3">Wind:</p>
+                    <p id="humi3">Humidity:</p>
                 </div>
 
                 <!-- Fourth Day-->
                 <div class="futureforecastbox">
                     <h3 id="day4"></h3>
                     <img src="" alt= "pic icon" id="pic-descr">
-                    <p id="temp4"></p>
-                    <p id="wind4"></p>
-                    <p id="humi4"></p>
+                    <p id="temp4">Temp:</p>
+                    <p id="wind4">Wind:</p>
+                    <p id="humi4">Humidity:</p>
                 </div>
 
                 <!-- Fifth Day-->
                 <div class="futureforecastbox">
                     <h3 id="day5"></h3>
                     <img src="" alt= "pic icon" id="pic-descr">
-                    <p id="temp5"></p>
-                    <p id="wind5"></p>
-                    <p id="humi5"></p>
+                    <p id="temp5">Temp:</p>
+                    <p id="wind5">Wind:</p>
+                    <p id="humi5">Humidity:</p>
                 </div>
             </div>
 
@@ -104,7 +106,7 @@
     
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/scriptss.js"></script>
 </body>
 
 </html>

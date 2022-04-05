@@ -1,5 +1,41 @@
 /* Red border */
 hr.new1 {
     border-top: 2px solid rgb(153, 150, 150);
-  }
+    }
 
+.futureforecastbox{
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left:auto;
+  border: 3px solid rgb(131, 10, 10);
+  padding: 140px;
+  background-color: rgb(37, 70, 93);
+  color: aliceblue;
+
+}
+
+.upperbox{
+border-style: solid;color: black;
+margin-top: 20px;
+
+}
+.olderSearches{
+  background-color: rgb(47, 213, 255);
+  padding: 10%;
+  color: aliceblue;
+  font-size: x-large;
+  
+}
+
+p {
+  font-size: x-large;
+  font-stretch: expanded;
+}
+
+today-weather.p {
+  font-size: x-small;
+}
+
+h2{
+  margin-top: 20px;
+}
